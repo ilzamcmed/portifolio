@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{font-family: 'Roboto', sans-serif;}
+.dark-pink-txt{color: #8B4343}
+.licoric-black-txt {color: #141011}
+.light-pink-txt {color: #AD6A5B}
+
+
+/*MENU*/
+.logo{
+    width: 90px;
+}
+.dark-pink-txt {
+    color: #8B4343;}
+.navbar-items{
+    color: #8B4343
+}
+
+/* Contact */
+.contact{background-color:  #AD6A5B}
