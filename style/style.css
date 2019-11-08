@@ -1,20 +1,224 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 *{font-family: 'Roboto', sans-serif;}
-.dark-pink-txt{color: #8B4343}
-.licoric-black-txt {color: #141011}
-.light-pink-txt {color: #AD6A5B}
 
+.deep-blue{color: #3A5D66}
+.licoric-black-txt {color: #141011}
+.light-grey {color: #EFEAEC}
+.tea-rose{color: #EFC2BB}
+.burn-pink{color: #B67A71;}
+
+* {box-sizing: border-box;}
 
 /*MENU*/
-.logo{
-    width: 90px;
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex: wrap;
+    margin: auto;
+    background-color: #EFC2BB;}
+
+.container{
+  width: 70%;
+  margin: 0 auto;}
+
+.txt-menu {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    background-color: #EFC2BB;
+    color: #3A5D66;}
+
+.navbar {
+    justify-content: flex-end;}
+
+.navbar-items {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    height: 46px;
+    left: 744px;
+    top: 80px;
+    background-color: #EFC2BB;
+    color: #3A5D66}
+
+
+.banner{
+    background-color: #EFC2BB;}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10%;
+    line-height: 5em;
+    }
+    
+.main-title{
+    margin-right: 10%;
+    padding-right: 50px;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 50px;}
+
+.first-txt{ 
+    color: #EFEAEC;
 }
-.dark-pink-txt {
-    color: #8B4343;}
-.navbar-items{
-    color: #8B4343
+.second-txt{
+    
+    color: #3A5D66;}
+
+.foto-perfil{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+        }
+
+.description{
+    margin-top: 6%;
+    padding-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #3A5D66;
+
+}
+/*Projects */
+.projects{
+    background-color: #EFEAEC;
+   padding-top: 20px;
+
 }
 
+.heading-title{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #B67A71;
+}
+.cards {
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+    display: flex;
+}
+
+.card{
+    text-align: center;
+    height: 360px;
+    width: 250px;
+    left: 45px;
+    margin-top: 20px;
+    
+    padding: 20px;
+    margin: 3%;
+
+}
+.card:hover{
+    box-shadow: 2px 8px 16px 0 #B67A71;
+}
+.container{
+    
+    padding: 5px;
+}
+.card-title{
+    font-size: 18px;
+    justify-content: center;
+    height: 16px;
+    text-align: center;
+    color: #3A5D66;
+}
+.textcard{
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    color: #3A5D66;
+}
+.fas{
+    font-size: 40px;
+    color: #B67A71;
+    margin-top: 10%;
+}
+.container-skills{
+    background-color: #EFEAEC;
+}
+.progress{
+   height: 15px;
+   background-color: #cfcfcf;
+   align-items: flex-end;
+  margin: 30px;
+  
+}
+.progress-bar{
+    width: 20%;
+    height: 100%;
+    background-color: #EFC2BB;
+    font-size: 12px;
+    color: #3A5D66;
+    box-shadow: 2px 8px 8px 0 #D0CECE;
+}
+.progress-bar1{
+    width: 15%;
+    height: 100%;
+    background-color: #EFC2BB;
+    font-size: 12px;
+    color: #3A5D66;
+    box-shadow: 2px 8px 8px 0 #D0CECE;
+
+}
 /* Contact */
-.contact{background-color:  #AD6A5B}
+.contact{
+    background: linear-gradient(180deg, #F1B1A4 0%, #D2978E 100%);
+    height: 450px;
+    width: 100%;
+}
+.final-title{
+    padding-top: 30px;
+    padding: 4%;
+    font-size: 50px;
+    color: #3A5D66;
+    text-align: center;
+}
+
+.email{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2%;
+    text-decoration: none;
+    list-style-type: none;
+    color: #3A5D66;
+    font-style: oblique;
+    text-align: center;
+}
+.final-txt{
+    position: relative;
+    justify-content: center;
+    padding: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #3A5D66;
+}
+
+.footer{
+    height: 122px;
+    background: rgba(62, 59, 59, 0.81);
+    color: #D0CECE;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fab{
+   font-size: 30px;
+    color: #D0CECE;
+}
